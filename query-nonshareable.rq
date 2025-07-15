@@ -27,193 +27,158 @@ CONSTRUCT { ?entity ipac:shareable "false"^^xsd:boolean }
 WHERE {
 VALUES ?nonshareableClass
 	{
- 	a-spe:Accession
-	a-dd:Accessory
-	a-cat:AccessProfile
+ 	a-cat:AccessProfile
+	a-cat:AlternativeIdentifier
+	a-cat:CatalogueRecordVersion
+	a-cat:CulturalPropertyRecord
+	a-cat:Pseudomorphosis
+	a-cat:Record
 	a-cd:Acquisition
-	a-dd:AffixedElement
-	a-cd:Age
 	a-cd:AgeInterpretation
-	core:AgentRole
 	a-cd:AgeOfDeathInterpretation
 	a-cd:AlternativeAuthorshipAttribution
-	a-cat:AlternativeIdentifier
-	a-loc:Altitude
 	a-cd:Anomaly
-	a-cd:ArchaeologicalExcavation
-	a-cd:ArchaeologicalFieldSurvey
-	arco:ArchaeologicalMaterial
 	a-cd:ArchaeometricDiagnosticSurvey
 	a-cd:ArchivalRecordSetMembership
 	a-cd:AudioDocumentation
 	a-cd:AudioRecording
-	a-dd:Bandage
-	a-loc:BaseMap
 	a-cd:Bibliography
-	a-loc:CadastralFolio
-	a-loc:CadastralIdentity
-	a-loc:CadastralUnitCollection
-	a-cat:CatalogueRecordVersion
 	a-cd:Certification
 	a-cd:ChangeOfAvailability
-	a-spe:ChondrulePresence
-	a-cd:Circumstance
-	core:ClassificationInTime
-	a-spe:Cleavage
-	a-dd:ClimateSituation
-	a-dd:CoinDesign
 	a-cd:CoinIssuance
-	a-dd:CoinLegend
-	a-cd:CollectionMembership
 	a-cd:Commission
-	a-dd:CommunicationMedium
-	a-con:ConnectionElement
 	a-cd:ConservationIntervention
-	a-dd:ConservationStatus
-	a-con:Construction
-	a-con:ConstructionElement
-	a-loc:Coordinates
 	a-cd:Copy
 	a-cd:Copyright
-	a-dd:Counterstamp
-	a-spe:CrystalHabit
-	a-spe:CrystalMorphology
-	a-spe:CrystalTwinning
-	clo:Cuff
-	cis:CulturalEntity
-	a-dd:CulturalEntityTechnicalStatus
-	arco:CulturalPropertyPart
-	a-cat:CulturalPropertyRecord
+	a-cd:Copyright
 	a-cd:CulturalScopeAttribution
 	a-cd:Dating
-	a-dd:DecorativeApparatus
-	a-dd:Dedication
 	a-cd:DerivatedWork
-	a-dd:Design
-	a-cd:DesignationInTime
 	a-cd:Documentation
-	a-cd:Edition
-	a-loc:EnvironmentalDamage
 	a-cd:Estimate
-	core:Event
 	a-cd:ExportImportCertification
-	a-con:Facade
 	a-cd:Facsimile
 	a-cd:FairMarketCircumstance
-	clo:Fastener
-	a-cd:FilmDocumentation
 	a-cd:FinalWork
 	a-cd:FindingContext
-	a-con:Floor
-	a-con:Flooring
 	a-cd:Forgery
-	a-con:Foundation
 	a-cd:Fruition
-	a-spe:FruitSample
-	a-loc:GeologicalContext
-	clv:Geometry
-	a-spe:Grains
 	a-cd:GraphicOrCartographicDocumentation
-	a-con:HorizontalElement
-	a-con:HorizontalSubdivision
-	a-dd:IconographicOrDecorativeApparatus
-	a-spe:IdentificationInTime
-	clv:Identifier
-	a-dd:Inscription
 	a-cd:Inspection
-	clo:InteriorElement
 	a-cd:Intervention
 	a-cd:InventorySituation
 	a-cd:LaboratoryTest
-	a-con:Layout
-	a-cd:LegalSituation
 	a-cd:LifeCycleCircumstance
-	a-dd:Measurement
-	a-dd:MeasurementCollection
-	a-loc:MineralDeposit
-	a-spe:MineralPresence
 	a-cd:MultimediaDocumentation
-	a-loc:NaturalEnvironment
-	clo:Neck
-	a-loc:NeighbouringCadastralEntity
 	a-cd:NumismaticSeriesMembership
-	l0:Object
 	a-cd:ObservationSurvey
-	a-con:OpenSpace
-	a-loc:Outcrop
-	a-cd:PaleopathologySurvey
-	a-spe:Paramorphosis
-	a-cd:PhotographicDocumentation
-	arco:PhotographicHeritageClassification
+	a-cd:PalaeopathologySurvey
 	a-cd:PhotographicRecording
 	a-cd:PhotographicSeriesMembership
 	a-cd:PhotographicSubseriesMembership
 	a-cd:PhotoInterpretationRendering
-	clo:Pocket
-	a-spe:PollenSample
-	a-con:PositionOnGroundLevel
 	a-cd:PreferredAuthorshipAttribution
-	a-spe:Preparation
 	a-cd:PreparatoryOrFinalWork
 	a-cd:PreparatoryWork
-	a-cd:PrintingPlatesSeries
 	a-cd:PrintInPublication
 	a-cd:ProductionCycleCircumstance
 	a-cd:ProtectiveMeasure
-	a-cat:Pseudomorphosis
-	a-cd:Publication
-	a-cat:Record
-	a-ce:RecurrentSituationSeries
-	a-cd:ReferenceCatalogue
-	a-spe:Reflectance
-	a-spe:Refraction
-	a-cd:RelatedWorkSituation
 	a-cd:Research
 	a-cd:Responsibility
 	a-cd:Reuse
-	arco:RFid
-	a-con:Roof
-	a-con:Roofing
 	a-cd:SameAuthorCopy
-	a-dd:Sample
 	a-cd:SeasonCycleCircumstance
-	a-spe:SeedSample
-	a-cd:Sex
 	a-cd:SexInterpretation
-	clo:Sleeve
 	a-cd:SocialInteractionCircumstance
-	a-loc:Soil
 	a-cd:SourceAndDocument
-	a-spe:SpecimenHarvesting
-	a-con:Stairs
 	a-cd:StorageMedium
-	a-loc:Stratum
-	a-mi:String
-	a-con:StructuralElement
-	a-cd:Subject
-	a-dd:Support
 	a-cd:Survey
 	a-cd:SurveyImage
-	a-dd:TechnicalStatus
-	a-con:TechnicalSystem
-	a-spe:Texture
-	roapit:TimeIndexedRole
-	a-loc:TimeIndexedTypedLocation
-	a-cd:Title
-	a-spe:Typification
-	a-spe:UnitCell
 	a-cd:UrbanPlanningInstrument
-	a-cd:Use
-	a-con:VerticalElement
-	a-con:VerticalSubdivision
 	a-cd:VideoRecording
-	a-con:WaterElement
-	a-con:WaterSystem
-	a-spe:WoodSample
 	a-cd:WorkCircumstance
 	a-cd:YearCycleCircumstance
-	a-cd:Copyright
+	a-con:ConnectionElement
+	a-con:ConstructionElement
+	a-con:Facade
+	a-con:Flooring
+	a-con:Foundation
+	a-con:HorizontalElement
+	a-con:HorizontalSubdivision
+	a-con:OpenSpace
+	a-con:PositionOnGroundLevel
+	a-con:Roof
+	a-con:Roofing
+	a-con:StructuralElement
+	a-con:TechnicalSystem
+	a-con:VerticalElement
+	a-con:VerticalSubdivision
+	a-con:WaterElement
+	a-con:WaterSystem
+	a-dd:Accessory
+	a-dd:AffixedElement
+	a-dd:Bandage
+	a-dd:ClimateSituation
+	a-dd:CoinDesign
+	a-dd:CoinLegend
+	a-dd:CommunicationMedium
+	a-dd:ConservationStatus
+	a-dd:Counterstamp
+	a-dd:CulturalEntityTechnicalStatus
+	a-dd:DecorativeApparatus
+	a-dd:Dedication
+	a-dd:Design
+	a-dd:IconographicOrDecorativeApparatus
+	a-dd:Inscription
+	a-dd:Sample
+	a-dd:TechnicalStatus
+	a-loc:Altitude
+	a-loc:CadastralIdentity
+	a-loc:Coordinates
+	a-loc:EnvironmentalDamage
+	a-loc:GeologicalContext
+	a-loc:MineralDeposit
+	a-loc:NaturalEnvironment
+	a-loc:NeighbouringCadastralEntity
+	a-loc:Outcrop
+	a-loc:Soil
+	a-loc:Stratum
+	a-loc:TimeIndexedTypedLocation
+	a-mi:String
+	a-spe:Accession
+	a-spe:ChondrulePresence
+	a-spe:Cleavage
+	a-spe:CrystalHabit
+	a-spe:CrystalMorphology
+	a-spe:CrystalTwinning
+	a-spe:FruitSample
+	a-spe:Grains
+	a-spe:IdentificationInTime
+	a-spe:MineralPresence
+	a-spe:Paramorphosis
+	a-spe:PollenSample
+	a-spe:Preparation
+	a-spe:Reflectance
+	a-spe:Refraction
+	a-spe:SeedSample
+	a-spe:SpecimenHarvesting
+	a-spe:Texture
+	a-spe:UnitCell
+	a-spe:WoodSample
+	arco:CulturalPropertyPart
+	arco:PhotographicHeritageClassification
+	arco:RFid
+	clo:Cuff
+	clo:Fastener
+	clo:InteriorElement
+	clo:Neck
+	clo:Pocket
+	clo:Sleeve
+	clv:Geometry
+	clv:Identifier
+	core:ClassificationInTime
 	core:Identifier
+	roapit:TimeIndexedRole
 	}
 ?entity a ?nonshareableClass.
 }

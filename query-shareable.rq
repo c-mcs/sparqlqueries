@@ -27,35 +27,10 @@ CONSTRUCT { ?entity ipac:shareable "true"^^xsd:boolean }
 WHERE {
 VALUES ?shareableClass
 	{
-	cis:CulturalEntity
-	cis:CulturalInstituteOrSite
-	cis:Site
-	arco:CulturalProperty
-	arco:ArchaeologicalProperty
-	arco:ArchitecturalOrLandscapeHeritage
-	arco:BotanicalHeritage
-	arco:DemoEthnoAnthropologicalHeritage
-	arco:HistoricOrArtisticProperty
-	arco:ImmovableCulturalProperty
-	arco:IntangibleCulturalProperty
-	arco:MineralHeritage
-	arco:MovableCulturalProperty
-	arco:MusicalHeritage
-	arco:MusicHeritage
-	arco:NaturalHeritage
-	arco:NumismaticProperty
-	arco:PaleontologicalHeritage
-	arco:PetrologicHeritage
-	arco:PhotographicHeritage
-	arco:PhysicalAnthropologyHeritage
-	arco:PlanetaryScienceHeritage
-	arco:ScientificOrTechnologicalHeritage
-	arco:ZoologicalHeritage
-	clo:Clothing
-	clv:Building
-	a-con:Construction
 	a-cd:Edition
 	a-ce:RecurrentSituationSeries
+	a-con:Construction
+	a-con:OutdoorSpace
 	a-dd:CulturalPropertyType
 	a-mi:MusicalInstrument
 	a-spe:Animal
@@ -66,158 +41,173 @@ VALUES ?shareableClass
 	a-spe:Rock
 	a-spe:Specimen
 	a-spe:Vegetal
-	dcatapit:Organization
+	arco:ArchaeologicalProperty
+	arco:ArchitecturalOrLandscapeHeritage
+	arco:BotanicalHeritage
+	arco:CulturalProperty
+	arco:DemoEthnoAnthropologicalHeritage
+	arco:HistoricOrArtisticProperty
+	arco:ImmovableCulturalProperty
+	arco:IntangibleCulturalProperty
+	arco:MineralHeritage
+	arco:MovableCulturalProperty
+	arco:MusicalHeritage
+	arco:MusicHeritage
+	arco:NaturalHeritage
+	arco:NumismaticProperty
+	arco:PalaeontologicalHeritage
+	arco:PetrologicHeritage
+	arco:PhotographicHeritage
+	arco:PhysicalAnthropologyHeritage
+	arco:PlanetaryScienceHeritage
+	arco:ScientificOrTechnologicalHeritage
+	arco:ZoologicalHeritage
+	cis:CulturalEntity
+	cis:CulturalInstituteOrSite
+	cis:Site
+	clo:Clothing
+	clv:Building
 	cpv:Person
+	dcatapit:Organization
 	l0:Agent
 	l0:EventOrSituation
-	a-con:OutdoorSpace
+	a-cat:PrivacyReason
 	a-cd:AccessoryType
-	a-ce:Acknowledgement
 	a-cd:AcquisitionType
-	a-cc:ActivityStatus
-	clv:Address
-	clv:AddressArea
-	clv:AdminUnitComponent
-	a-dd:AffixedElementType
 	a-cd:Age
-	core:AgentRole
-	a-dd:a-dd:AgeRange
-	a-spe:AlterationGrade
-	a-spe:AlterationType
-	a-dd:AnomalyClassification
-	a-cc:Application
 	a-cd:ArchaeologicalExcavation
 	a-cd:ArchaeologicalFieldSurvey
-	arco:ArchaeologicalMaterial
-	arco:ArchaeologicalMaterialCategory
 	a-cd:ArchaeometricDiagnosticSurveyType
-	a-cc:ArchivalCollection
 	a-cd:ArchivalFonds
 	a-cd:ArchivalResourceType
 	a-cd:ArchivalSeries
 	a-cd:ArchivalSubseries
-	a-dd:Arrangement
 	a-cd:AttributionMotivation
 	a-cd:AudioCollection
-	a-dd:BandageType
-	a-loc:BaseMap
 	a-cd:BibliographyCategory
 	a-cd:BibliographyType
-	a-spe:BiogenicSedimentaryStructure
-	a-spe:BiologicalSubspecies
 	a-cd:BiologicalTaxon
-	a-spe:BotanicalForm
-	a-loc:CadastralFolio
-	a-loc:CadastralSubordinate
-	a-loc:CadastralUnitCollection
-	a-locCadastre
-	a-cc:CampaignStatus
-	a-cc:CampaignType
-	a-cc:CatalogueNumberAssignment
-	a-cc:CataloguingActivity
-	a-cc:CataloguingLevel
-	a-cc:CataloguingOrDigitizationCampaign
-	a-spe:Cement
 	a-cd:CertificationType
 	a-cd:ChangeOfAvailabilityType
-	a-spe:Chondrule
-	a-spe:ChondruleType
-	a-spe:ChronostratigraphicSeries
-	a-spe:ChronostratigraphicStage
-	a-spe:ChronostratigraphicSubstage
-	a-spe:ChronostratigraphicSystem
-	a-loc:Chronozone
 	a-cd:Circumstance
-	cis:CISNameInTime
-	clv:City
-	arco:ClassificationSystem
-	cis:ClericalAdministrativeArea
-	a-spe:CloseIndividual
-	cis:CollectionCulEnt
 	a-cd:CollectionMembership
-	a-ce:Competition
-	l0:Concept
-	a-con:ConnectionElementType
-	a-dd:ConservationMethod
-	a-dd:ConservationStatusType
-	a-spe:ContactType
-	a-loc:Continent
-	clv:Country
-	a-spe:CrystallographicCharacteristic
-	a-spe:Cultivar
-	cis:CulturalEvent
-	a-loc:CulturalInstituteOrSiteDefinition
-	a-loc:CulturalInstituteOrSiteSpecification
-	a-loc:CulturalInstituteOrSiteType
-	a-dd:CulturalPropertyAccessibility
-	arco:CulturalPropertyCataloguingCategory
-	arco:CulturalPropertyCategory
-	a-dd:CulturalPropertyDefinition
-	arco:CulturalPropertyInventoryCategory
-	a-dd:CulturalPropertySpecification
 	a-cd:CulturalPropertyStage
 	a-cd:CulturalScope
-	core:Depiction
 	a-cd:DerivatedWorkType
 	a-cd:DesignationInTime
 	a-cd:DesignationType
 	a-cd:DetectionMethod
-	a-spe:DevelopmentStage
-	clv:District
 	a-cd:DocumentationCategory
 	a-cd:DocumentationType
 	a-cd:EligibleIntervention
-	a-spe:EmpiricalChemicalFormula
-	a-loc:Eonothem
-	a-loc:Erathem
-	a-spe:EruptiveType
-	core:Event
 	a-cd:ExportImportCertificationType
-	a-spe:Family
-	clo:FastenerType
-	clv:Feature
-	a-dd:Filigree
 	a-cd:FilmDocumentation
 	a-cd:FindingContextType
-	a-con:Floor
-	a-con:FlooringLayout
-	a-con:FlooringType
 	a-cd:FluidDynamism
-	a-dd:FontStyle
-	a-dd:Format
-	a-spe:Fossil
-	a-con:FoundationType
-	a-dd:FunctionalPurpose
-	cis:GeographicalFeature
-	a-loc:GeologicalMap
-	a-loc:GeometryMethod
-	a-loc:GeometryTechnique
-	clv:GeometryType
-	cov:Group
-	a-spe:HarvestingMethod
-	a-spe:HarvestingMotivation
-	a-con:HorizontalElementType
-	a-mi:HornbostelSachsClass
-	a-spe:HostIndividual
-	a-spe:HostRock
-	a-dd:IconographicOrDecorativeApparatusType
-	a-dd:ImplementationMethod
-	a-loc:Incline
-	a-spe:Inclusion
-	clo:InteriorElementType
 	a-cd:InterpretationCriterion
 	a-cd:InterventionType
 	a-cd:Inventory
 	a-cd:InventoryType
 	a-cd:LaboratoryTestType
-	a-loc:LanduseMap
-	dc:Language
-	a-con:Layout
 	a-cd:LegalSituation
 	a-cd:LegalSituationType
-	a-dd:Legibility
 	a-cd:License
-	a-spe:LithologicType
+	a-cd:NumismaticSeries
+	a-cd:ObservationSurveyType
+	a-cd:PhotographicDocumentation
+	a-cd:PhysicalCharacteristic
+	a-cd:PrintingPlatesSeries
+	a-cd:Profession
+	a-cd:Publication
+	a-cd:RecordingType
+	a-cd:ReferenceCatalogue
+	a-cd:RelatedWorkSituation
+	a-cd:RelationshipType
+	a-cd:Rock
+	a-cd:Scale
+	a-cd:SECCategory
+	a-cd:Sex
+	a-cd:SourceAndDocument
+	a-cd:Species
+	a-cd:StorageMediumType
+	a-cd:StratigraphicUnit
+	a-cd:Subject
+	a-cd:SubjectDiscipline
+	a-cd:Subspecies
+	a-cd:SurveyMethod
+	a-cd:SurveyMotivation
+	a-cd:SurveyType
+	a-cd:ThematicPath
+	a-cd:ThematicPathType
+	a-cd:Title
+	a-cd:Tomb
+	a-cd:UrbanPlanningInstrumentType
+	a-cd:Use
+	a-cd:UseFunction
+	a-cd:UserSocialCategory
+	a-cd:UseType
+	a-cd:VideoCollection
+	a-ce:Acknowledgement
+	a-ce:Competition
+	a-ce:RecurrentTimePeriod
+	a-con:ConnectionElementType
+	a-con:Floor
+	a-con:FlooringLayout
+	a-con:FlooringType
+	a-con:FoundationType
+	a-con:HorizontalElementType
+	a-con:Layout
+	a-con:PlanLayout
+	a-con:PositionOnGroundLevelType
+	a-con:RoofingType
+	a-con:RoofStructure
+	a-con:RoofType
+	a-con:Stairs
+	a-con:VerticalElementType
+	a-con:WaterElementType
+	a-dd:a-dd:AgeRange
+	a-dd:AffixedElementType
+	a-dd:AnomalyClassification
+	a-dd:Arrangement
+	a-dd:BandageType
+	a-dd:ConservationMethod
+	a-dd:ConservationStatusType
+	a-dd:CulturalPropertyAccessibility
+	a-dd:CulturalPropertyDefinition
+	a-dd:CulturalPropertySpecification
+	a-dd:Filigree
+	a-dd:FontStyle
+	a-dd:Format
+	a-dd:FunctionalPurpose
+	a-dd:IconographicOrDecorativeApparatusType
+	a-dd:ImplementationMethod
+	a-dd:Legibility
+	a-dd:Measurement
+	a-dd:MeasurementCollection
+	a-dd:Orientation
+	a-dd:OrnamentalMotif
+	a-dd:SampleType
+	a-dd:Software
+	a-dd:SortingCriterion
+	a-dd:Support
+	a-dd:TechnicalCharacteristic
+	a-dd:WritingSystem
+	a-loc:BaseMap
+	a-loc:CadastralFolio
+	a-loc:CadastralSubordinate
+	a-loc:CadastralUnitCollection
+	a-loc:Chronozone
+	a-loc:Continent
+	a-loc:CulturalInstituteOrSiteDefinition
+	a-loc:CulturalInstituteOrSiteSpecification
+	a-loc:CulturalInstituteOrSiteType
+	a-loc:Eonothem
+	a-loc:Erathem
+	a-loc:GeologicalMap
+	a-loc:GeometryMethod
+	a-loc:GeometryTechnique
+	a-loc:Incline
+	a-loc:LanduseMap
 	a-loc:LithostratigraphicBed
 	a-loc:LithostratigraphicComplex
 	a-loc:LithostratigraphicFormation
@@ -226,114 +216,126 @@ VALUES ?shareableClass
 	a-loc:LithostratigraphicStratum
 	a-loc:LithostratigraphicSupergroup
 	a-loc:LocationType
-	a-spe:MainMass
-	a-spe:Matrix
-	a-dd:Measurement
-	a-dd:MeasurementCollection
-	mu:MeasurementUnit
-	a-spe:MineralClass
-	a-spe:MineralDepositType
-	a-spe:MineralSubclass
-	cis:MonumentalArea
-	a-mi:MusicalInstrumentTaxon
-	a-mi:MusicalNote
 	a-loc:NaturalEnvironmentType
-	clo:NeckType
-	arco:NumismaticPropertyFunctionalCategory
-	arco:NumismaticPropertyTypologicalCategory
-	a-cd:NumismaticSeries
-	l0:Object
-	a-cd:ObservationSurveyType
 	a-loc:OldTown
-	a-cc:OrganizationType
-	a-dd:Orientation
-	a-dd:OrnamentalMotif
 	a-loc:OutcropType
 	a-loc:PedologicalMap
-	a-cd:PhotographicDocumentation
-	arco:PhotographicHeritageClassificationType
-	a-cd:PhysicalCharacteristic
-	a-spe:PlanetologicClass
-	a-spe:PlanetologicGenus
-	a-spe:PlanetologicGroup
-	a-spe:PlanetologicSpecies
-	a-con:PlanLayout
-	clo:PocketType
-	a-con:PositionOnGroundLevelType
-	a-spe:PreparationType
-	a-spe:PreservationType
-	a-spe:PrimarySedimentaryStructure
-	a-cd:PrintingPlatesSeries
-	a-cat:PrivacyReason
-	a-cd:Profession
-	a-cc:Protocol
-	clv:Province
-	a-cd:Publication
-	a-cd:RecordingType
-	a-ce:RecurrentTimePeriod
-	a-cd:ReferenceCatalogue
-	arco:ReferenceCoinLegend
-	clv:Region
-	a-cd:RelatedWorkSituation
-	a-cd:RelationshipType
-	a-cd:Rock
-	roapit:Role
-	a-con:RoofingType
-	a-con:RoofStructure
-	a-con:RoofType
-	a-dd:SampleType
-	a-cd:Scale
-	a-cd:SECCategory
-	a-spe:SecondarySedimentaryStructure
-	a-spe:SedimentaryStructure
-	a-spe:SimplifiedChemicalFormula
-	a-cd:Sex
 	a-loc:ShadeTolerance
 	a-loc:SiteDefinition
 	a-loc:SiteSpecification
 	a-loc:SiteType
-	clo:SleeveType
-	a-dd:Software
-	a-dd:SortingCriterion
-	a-cd:SourceAndDocument
-	a-cd:Species
-	a-spe:SpecimenCollection
-	a-con:Stairs
-	a-cd:StorageMediumType
-	a-cd:StratigraphicUnit
-	a-cd:Subject
-	a-cd:SubjectDiscipline
-	a-cd:Subspecies
 	a-loc:Substrate
 	a-loc:SubstrateType
-	a-dd:Support
-	a-cd:SurveyMethod
-	a-cd:SurveyMotivation
-	a-cd:SurveyType
-	a-dd:TechnicalCharacteristic
-	a-spe:TextureType
-	a-cd:ThematicPath
-	a-cd:ThematicPathType
-	ti:TimeInterval
-	a-cd:Title
-	a-cd:Tomb
 	a-loc:ToponymInTime
+	a-loc:UrbanArea
+	a-loc:ZoogeographicRegion
+	a-loc:Cadastre
+	a-mi:MusicalInstrumentTaxon
+	a-mi:MusicalNote
+	a-spe:AlterationGrade
+	a-spe:AlterationType
+	a-spe:BiogenicSedimentaryStructure
+	a-spe:BiologicalSubspecies
+	a-spe:BotanicalForm
+	a-spe:Cement
+	a-spe:Chondrule
+	a-spe:ChondruleType
+	a-spe:ChronostratigraphicSeries
+	a-spe:ChronostratigraphicStage
+	a-spe:ChronostratigraphicSubstage
+	a-spe:ChronostratigraphicSystem
+	a-spe:CloseIndividual
+	a-spe:ContactType
+	a-spe:CrystallographicCharacteristic
+	a-spe:Cultivar
+	a-spe:DevelopmentStage
+	a-spe:EmpiricalChemicalFormula
+	a-spe:EruptiveType
+	a-spe:Family
+	a-spe:Fossil
+	a-spe:HarvestingMethod
+	a-spe:HarvestingMotivation
+	a-spe:HostIndividual
+	a-spe:HostRock
+	a-spe:Inclusion
+	a-spe:LithologicType
+	a-spe:MainMass
+	a-spe:Matrix
+	a-spe:MineralClass
+	a-spe:MineralDepositType
+	a-spe:MineralSubclass
+	a-spe:PlanetologicClass
+	a-spe:PlanetologicGenus
+	a-spe:PlanetologicGroup
+	a-spe:PlanetologicSpecies
+	a-spe:PreparationType
+	a-spe:PreservationType
+	a-spe:PrimarySedimentaryStructure
+	a-spe:SecondarySedimentaryStructure
+	a-spe:SedimentaryStructure
+	a-spe:SimplifiedChemicalFormula
+	a-spe:SpecimenCollection
+	a-spe:TextureType
 	a-spe:TypeOfTypeSpecimen
 	a-spe:Typification
-	a-loc:UrbanArea
-	a-cd:UrbanPlanningInstrumentType
-	a-cd:Use
-	a-cd:UseFunction
-	a-cd:UserSocialCategory
-	a-cd:UseType
-	mu:Value
 	a-spe:Variety
-	a-con:VerticalElementType
-	a-cd:VideoCollection
-	a-con:WaterElementType
 	a-spe:WeatheringGrade
-	a-dd:WritingSystem
-	a-loc:ZoogeographicRegion
+	arco:ArchaeologicalMaterial
+	arco:ArchaeologicalMaterialCategory
+	arco:ClassificationSystem
+	arco:CulturalPropertyCataloguingCategory
+	arco:CulturalPropertyCategory
+	arco:CulturalPropertyInventoryCategory
+	arco:NumismaticPropertyFunctionalCategory
+	arco:NumismaticPropertyTypologicalCategory
+	arco:PalaeontologicalHeritage
+	arco:PetrologicHeritage
+	arco:PhotographicHeritageClassificationType
+	arco:ReferenceCoinLegend
+	cis:CISNameInTime
+	cis:ClericalAdministrativeArea
+	cis:CollectionCulEnt
+	cis:CulturalEvent
+	cis:GeographicalFeature
+	cis:MonumentalArea
+	clo:FastenerType
+	clo:InteriorElementType
+	clo:NeckType
+	clo:PocketType
+	clo:SleeveType
+	clv:Address
+	clv:AddressArea
+	clv:AdminUnitComponent
+	clv:City
+	clv:Country
+	clv:District
+	clv:Feature
+	clv:GeometryType
+	clv:Province
+	clv:Region
+	core:AgentRole
+	core:Depiction
+	core:Event
+	cov:Group
+	dc:Language
+	a-cc:ActivityStatus
+	a-cc:Application
+	a-cc:ArchivalCollection
+	a-cc:OrganizationType
+	a-cc:Protocol
+	a-cc:CampaignStatus
+	a-cc:CampaignType
+	a-cc:CatalogueNumberAssignment
+	a-cc:CataloguingActivity
+	a-cc:CataloguingLevel
+	a-cc:CataloguingOrDigitizationCampaign
+	a-mi:HornbostelSachsClass
+	l0:Concept
+	l0:Object
+	mu:MeasurementUnit
+	mu:Value
+	roapit:Role
+	tiapit:TimeInterval
 	}
 ?entity a ?shareableClass.
 }

@@ -1,0 +1,60 @@
+CONSTRUCT { ?child core:originatorID ?origID }
+WHERE {
+  ?authURI core:originatorID ?origID .
+  ?authURI ?p ?child .
+  FILTER (isURI(?child))
+  FILTER (?child != ?authURI)
+  ?child rdf:type ?type .
+
+  FILTER NOT EXISTS {
+   ?child core:originatorID ?any.
+	?type rdfs:subClassOf* ?excludedType .
+	VALUES ?excludedType {
+    a-cd:Edition
+    a-ce:RecurrentSituationSeries
+    a-con:Construction
+    a-con:OutdoorSpace
+    a-dd:CulturalPropertyType
+    a-mi:MusicalInstrument
+    a-spe:Animal
+    a-spe:ArtificialSpecimen
+    a-spe:Meteorite
+    a-spe:Mineral
+    a-spe:NaturalSpecimen
+    a-spe:Rock
+    a-spe:Specimen
+    a-spe:Vegetal
+    arco:ArchaeologicalProperty
+    arco:ArchitecturalOrLandscapeHeritage
+    arco:BotanicalHeritage
+    arco:CulturalProperty
+    arco:DemoEthnoAnthropologicalHeritage
+    arco:HistoricOrArtisticProperty
+    arco:ImmovableCulturalProperty
+    arco:IntangibleCulturalProperty
+    arco:MineralHeritage
+    arco:MovableCulturalProperty
+    arco:MusicalHeritage
+    arco:MusicHeritage
+    arco:NaturalHeritage
+    arco:NumismaticProperty
+    arco:PalaeontologicalHeritage
+    arco:PetrologicHeritage
+    arco:PhotographicHeritage
+    arco:PhysicalAnthropologyHeritage
+    arco:PlanetaryScienceHeritage
+    arco:ScientificOrTechnologicalHeritage
+    arco:ZoologicalHeritage
+    cis:CulturalEntity
+    cis:CulturalInstituteOrSite
+    cis:Site
+    clo:Clothing
+    clv:Building
+    cpv:Person
+    dcatapit:Organization
+    l0:Agent
+    l0:EventOrSituation
+  	a-cat:CatalogueRecord
+	}
+  }
+}
