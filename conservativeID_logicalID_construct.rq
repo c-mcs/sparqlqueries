@@ -1,0 +1,13 @@
+prefix core: <https://w3id.org/arco/ontology/core/>
+prefix a-lite: <https://w3id.org/arco/ontology/arco-lite/>
+prefix ipac-tm: <https://ipac.cultura.gov.it/onto/ipac-tm/>
+
+CONSTRUCT
+{
+    ?entity ipac-tm:logicalId ?logicalID .
+    ?entity ipac-tm:conservativeId ?conservativeID .
+}
+WHERE {
+?entity core:isDescribedBy/a-lite:nationalIdentifier ?logicalID .
+?entity a-lite:hasCataloguingAgency/a-lite:nationalIdentifier ?conservativeID .
+}
