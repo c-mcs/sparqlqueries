@@ -80,8 +80,9 @@ WHERE {
 
   FILTER NOT EXISTS {
   ?child core:originatorID ?origID .
+  }
+  FILTER NOT EXISTS {
  	?type rdfs:subClassOf* ?excludedType .
-
 	VALUES ?excludedType {
   	a-cd:Edition
     a-ce:RecurrentSituationSeries

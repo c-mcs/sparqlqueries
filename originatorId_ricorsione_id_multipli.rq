@@ -7,8 +7,8 @@ WHERE {
   ?child rdf:type ?type .
 
   FILTER NOT EXISTS {
-   ?child core:originatorID ?any.
-	?type rdfs:subClassOf* ?excludedType .
+   ?child core:originatorID ?origID.
+	 ?type rdfs:subClassOf* ?excludedType .
 	VALUES ?excludedType {
     a-cd:Edition
     a-ce:RecurrentSituationSeries
