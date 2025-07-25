@@ -1,0 +1,202 @@
+@prefix ns0:	<https://ipac.cultura.gov.it/onto/ipac-tm/> .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0100457060>
+	ns0:logicalId	"0100457060" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0100457507>
+	ns0:logicalId	"0100457507" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0303277285>
+	ns0:logicalId	"0303277285" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0500731146>
+	ns0:logicalId	"0500731146" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0500737092>
+	ns0:logicalId	"0500737092" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/0901411271>
+	ns0:logicalId	"0901411271" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389564>
+	ns0:logicalId	"1100389564" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389565>
+	ns0:logicalId	"1100389565" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389566>
+	ns0:logicalId	"1100389566" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389573>
+	ns0:logicalId	"1100389573" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389577>
+	ns0:logicalId	"1100389577" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389586>
+	ns0:logicalId	"1100389586" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389587>
+	ns0:logicalId	"1100389587" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389588>
+	ns0:logicalId	"1100389588" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389589>
+	ns0:logicalId	"1100389589" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389591>
+	ns0:logicalId	"1100389591" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389592>
+	ns0:logicalId	"1100389592" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389593>
+	ns0:logicalId	"1100389593" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389594>
+	ns0:logicalId	"1100389594" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389595>
+	ns0:logicalId	"1100389595" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389596>
+	ns0:logicalId	"1100389596" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389598>
+	ns0:logicalId	"1100389598" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389602>
+	ns0:logicalId	"1100389602" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389604>
+	ns0:logicalId	"1100389604" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389605>
+	ns0:logicalId	"1100389605" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389610>
+	ns0:logicalId	"1100389610" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389614>
+	ns0:logicalId	"1100389614" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389618>
+	ns0:logicalId	"1100389618" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389620>
+	ns0:logicalId	"1100389620" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389623>
+	ns0:logicalId	"1100389623" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389624>
+	ns0:logicalId	"1100389624" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389625>
+	ns0:logicalId	"1100389625" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389628>
+	ns0:logicalId	"1100389628" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389629>
+	ns0:logicalId	"1100389629" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389630>
+	ns0:logicalId	"1100389630" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389631>
+	ns0:logicalId	"1100389631" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389633>
+	ns0:logicalId	"1100389633" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389641>
+	ns0:logicalId	"1100389641" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389645>
+	ns0:logicalId	"1100389645" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389648>
+	ns0:logicalId	"1100389648" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389650>
+	ns0:logicalId	"1100389650" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389654>
+	ns0:logicalId	"1100389654" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389655>
+	ns0:logicalId	"1100389655" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389656>
+	ns0:logicalId	"1100389656" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389659>
+	ns0:logicalId	"1100389659" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389662>
+	ns0:logicalId	"1100389662" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1100389663>
+	ns0:logicalId	"1100389663" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1500951999>
+	ns0:logicalId	"1500951999" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1600390662>
+	ns0:logicalId	"1600390662" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
+<https://w3id.org/arco/resource/ArchitecturalOrLandscapeHeritage/1600390668>
+	ns0:logicalId	"1600390668" ;
+	<https://ipac.cultura.gov.it/onto/ipac-tm/conservativeId\u00A0>	"ICCD" .
+
