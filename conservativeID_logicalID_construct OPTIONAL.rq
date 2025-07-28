@@ -11,3 +11,4 @@ WHERE {
 ?entity core:isDescribedBy/a-lite:nationalIdentifier ?logicalID .
 ?entity a-lite:hasCataloguingAgency/a-lite:nationalIdentifier ?conservativeID .
 }
+
