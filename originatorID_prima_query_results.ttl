@@ -1,0 +1,853 @@
+@prefix core:	<https://w3id.org/arco/ontology/core/> .
+@prefix ns1:	<https://w3id.org/arco/resource/CISNameInTime/> .
+@prefix ns2:	<https://w3id.org/arco/resource/CulturalInstituteOrSite/> .
+@prefix ns3:	<https://w3id.org/arco/resource/CulturalInstituteOrSiteIdentifier/> .
+
+ns1:collezione-aliprandi-de-sterlick
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/212d5d8fbf4cc6781bd93d1f5929f1f4> .
+ns1:collezione-manieri
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/00f710f27be1d4ab3aa6a4ed36e0df8e> .
+ns1:notaio-riccardo-de-luca
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/66826c36a9e5d7fb9afcbfe7e6c34f01> .
+ns1:raccolta-p-bonanni
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2671ff9d32f9b9c55f789ce59eb9fd76> .
+ns1:antiquario-ferrari-via-condotti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8b6dd659df09968ff4862c3ab7c2a81a> .
+ns1:collezione-pansini
+	core:originatorID	ns2:e24ad7a197e41df4962bb8b6d548d0ed , ns2:a6e197b74d876c11d24bb5456141a6e4 .
+ns1:fondo-pansini
+	core:originatorID	ns2:e357562c71824d87f23f0018af4240e5 .
+ns1:museo-di-antropologia-ed-etnografia
+	core:originatorID	ns2:ecbec4f034395742b449ea6c2d5c7899 .
+ns1:museo-di-antropologia-ed-etnografia-dl-sistema-museale-di-ateneo-delluniversita-degli-studi-di-torino
+	core:originatorID	ns2:b337282da79b60bf9bafb79a2e565126 .
+ns1:collezione-demaniale-eleonora-duse
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8ea8b0ec43413ec623247b5b4a46b7ba> .
+ns1:collezione-di-zoologia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/258e737deb37b06b2d657ea2ed5a65c1> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/688dd7c184f20c1128255ef92122dcf0> .
+ns1:collezione-fabi-museo-del-vino
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/0bf1fb82f697bd5e7a3ffc751ce20731> .
+ns1:collezione-michele-praitano
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/210cc642372a6678a1bddf0b6bd2cc33> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/5484b7f7d978d474c4bd054cff999c6e> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/855cece41dd08fce6765b76bfa5012e7> .
+ns1:collezione-permanente-fondazione-pisa
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/4a936bf92315945a8db825e5590fb0af> .
+ns1:collezione-privata-cattaneo-adorno
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/00e01ca604fc622764c8f194a9717e06> .
+ns1:collezione-privata-gentile-pietro
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/59a4e963715075544e3c90d26f6a0d4e> .
+ns1:fondo-archivio-storico-fotografico-della-soprintendenza-di-enna
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/38f46a378767fe55fec129324b2fefe4> .
+ns1:museo-della-civilta-contadina
+	core:originatorID	ns2:a9909fb3e1159d358fcbe053e689faa0 .
+ns1:museo-di-anatomia-patologica-e-paleopatologia
+	core:originatorID	ns2:d0a3ec4eb5e20d5ea77bbeab94844749 .
+ns1:museo-di-antropologia-criminale
+	core:originatorID	ns2:ca47c0bb5546df6156919b674f0f9e5a .
+ns1:museo-di-antropologia-criminale-cesare-lombroso
+	core:originatorID	ns2:c002c58a96527c2d1aed1485c6c59f4d .
+ns1:museo-di-antropologia-ed-etnografia-del-sistema-museale-di-ateneo-delluniversita-degli-studi-di-torino
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/22b3c43bb177360a078d01f4d761ec4a> .
+ns1:museo-di-psichiatria-e-antropologia-criminale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2c8a40eaaa619b5d0ca7e600c9070142> .
+ns1:museo-di-scienze-planetarie
+	core:originatorID	ns2:ea9d5cb4f7b8fad0d3a98858171e958d .
+ns1:museo-reggia-di-caserta
+	core:originatorID	ns2:ac8a22e74813b7964f2e7d07019ee892 , <https://w3id.org/arco/resource/CulturalInstituteOrSite/4c7a05fca422ce7415c8399e76f72c05> .
+ns1:soprintendenza-bb-cc-di-agrigento
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/75e9dd50af217209ed9f82247bdc6476> .
+ns1:soprintendenza-per-i-beni-culturali-e-ambientali-di-catania
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/374af6e98e1f696537428f657dcba4bd> .
+ns1:universita-degli-studi-di-torino
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3090484cef6bdd6b74e196b1ac079e61> .
+<https://w3id.org/arco/resource/CulturalInstituteOrSiteIdentifier/9ecb345bfd05906ffe988c8912a371a7>
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/38f46a378767fe55fec129324b2fefe4> .
+ns1:collezione-privata-enrico-di-borbone
+	core:originatorID	ns2:bdd793068e004d04d88fff64c36bfe4e , ns2:a7a3c2071053843a849d1cbfaeaddccc .
+ns1:museo-darte-orientale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8eac878abdc2828786e62d2400246757> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/22512c36064e005464de87d3bb12e120> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/393cc57489a8d38f2e1b14a5bc5bf8f6> .
+ns1:museo-di-antropologia-delluniversita-degli-studi-di-padova
+	core:originatorID	ns2:ce4cde44940c61a7509e3aca30cf98dd .
+ns1:museo-di-palazzo-reale
+	core:originatorID	ns2:a813f6a97f443fd784efd5fc8dc7f152 , <https://w3id.org/arco/resource/CulturalInstituteOrSite/8fe62e158dad655227c9423c1f1463be> , ns2:af936155da51e939783d464e0eebb70e .
+ns1:raccolta-egizia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/27ba9ec4323a3a075a98f253e18c054c> .
+ns1:scavo-ghezzo-2021
+	core:originatorID	ns2:efe58e67517be6c768b4023283f35cb2 .
+ns1:galleria-degli-uffizi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/126cba25f60919516216f08a52895917> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/68ea75fb6946df92f9c6a6fa98a5d1f3> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/2647b336f02e2bac122bdbf8bed988a8> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/6da092a242e3d931d6bf8e02e31fc5b8> .
+ns1:galleria-palatina-e-appartamenti-reali
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/041049286b48421796a62de0b81ee488> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/52f014737b62c519cd2f0cdca48dbb81> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/8a77b647df522c8c95e220903c7cdfb5> , ns2:bb94ad368464a11f6b3ab8ba12635643 .
+ns1:laboratorio-di-medicina-legale-della-regia-universita-di-torino
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/883a94c3be31ccb4b98e8d1736fd4698> .
+ns1:collezione-degli-strumenti-per-la-riproduzione-del-suono
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/65cfb1421bfd5141bd3580c1ef505582> .
+ns1:collezione-avvocato-santo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2f209d6a3fb4ccf0f19154cc51aff569> .
+ns1:museo-mediceo
+	core:originatorID	ns2:a0376ea6129bfb6acf05c35b45005624 .
+ns1:collezione-avvocato-carlo-de-crescenzi
+	core:originatorID	ns2:d5358c2690011dc135a2b72f89356b2c .
+ns1:collezione-municipale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/10b03f45488062499123b3e8b1f4aebe> .
+ns1:biblioteca-valliccelliana
+	core:originatorID	ns2:a445e8b0e386be82be6e7beb870256d0 .
+ns1:collezione-privata-gorga-e
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2239fdefd27bee15b6f1cfd549c42f9c> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/83a424b4a7a5de2e68418caa33451d99> .
+ns1:museo-centrale-del-risorgimento-italiano
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/0fc5129bbd4b3ba4d7e24213397d2f91> .
+ns1:museo-kircheriano
+	core:originatorID	ns2:c1b9d87ac812e69797b8f09f52a742f2 .
+ns1:biblioteca-vallicelliana
+	core:originatorID	ns2:e43f1564f0b8f93d36f9996851fb7697 .
+ns1:museo-del-cenacolo-di-andrea-del-sarto-depositi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1b2d617886d73d205069cd08973de2c9> .
+ns1:museo-del-cenacolo-di-s-apollonia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/031a4a78ed14be188a91ca4ce18dc0a2> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/463559b211dc8e98994a414ae81378e8> .
+ns1:museo-di-s-marco
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/14cad7264b7a09c4736bde88b4739d63> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/3b369190c2fbda8d24695a2eba08ea86> .
+ns1:museo-nazionale-del-bargello
+	core:originatorID	ns2:fa36a0e475d7f638c20d70cd686eb2c8 .
+ns1:archivio-fotografico-del-dipartimento-di-studi-umanistici
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/5ce6d99860c1918a67a77a57f3b13af9> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/532ebd01f4230ca313c27e2184d90098> .
+ns1:fondo-romero
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6464f3ebc76fde4da51df8902c72dd6e> .
+ns1:museo-archeologico
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3fb5da9b3b2a22f7a6cf3c80ee3bf049> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/0c90cc40489ea3af914bd8d535b8b033> .
+ns1:museo-civico-etnoantropologico-di-montesano
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/70e76513f5bd41ddb2c10d973527cf8f> .
+ns1:galleria-del-costume
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7f7764e5ff18640df27297daf5ee9d8b> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/85dc12773199b3f4915d2183182d7cc1> .
+ns1:museo-nazionale-dellaquila
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6bf185f8a1e64092b21a09e29d774d0d> .
+ns1:museo-nazionale-di-villa-guinigi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2578f16465c59abf866b16e06a9eae4a> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/2ecfa9aee3906d3e8c4d0a3176bbadd3> .
+ns1:museo-nazionale-di-palazzo-mansi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/4fee322f1c7b5a9ee5a8b3ad3bd64d33> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/644b6655c530469ebc8a8ba8f5a7ccef> .
+ns1:pinacoteca-comunale-foresiana-collezione-mario-foresi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/83917dc43bb5d7fe651062fe8115b61f> .
+ns1:museo-di-paleontologia-e-preistoria-piero-leonardi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6dcb2cfd227d4940adbefbf2875d81f5> .
+ns1:collezione-ex-museo-geologico-della-r-universita-di-genova
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/86230c0bec64bc34837c3c91e0f9d04e> .
+ns1:deposito-diocesano-di-santo-stefano-al-ponte
+	core:originatorID	ns2:a98bf4614d52ea67142fb540e0c7cb35 .
+ns1:galleria-darte-moderna-achille-forti
+	core:originatorID	ns2:a36dabea91e9d1270623bdbb85883a81 .
+ns1:museo-del-cenacolo-del-conservatorio-di-fuligno
+	core:originatorID	ns2:c58c6776d0a7be62786bb298a83415c9 .
+ns1:museo-della-specola
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/746195e222fec1e6b02657ea1fdc6aae> .
+ns1:museo-storico-del-castello-di-miramare
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/91830816488499ddbcdd4837d4765da0> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/9c3b9b67b58992cfe52b9edc3ebc1b4a> .
+ns1:pinacoteca-civica-di-teramo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9d0615dfe4c2bfcab124a21d5e743b98> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/8a08a5464b4c1202e2cb86129c3e9cf5> .
+ns3:ab6d278c737d6dfaeb94ecc40cab16ff
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/746195e222fec1e6b02657ea1fdc6aae> .
+ns1:collezione-bellini
+	core:originatorID	ns2:a8bfb954d0726974f4c9f2e656fb7781 .
+ns1:collezioni-granducali-medicee
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3721c9d27b49c7523d69438dbea1d03d> .
+ns1:galleria-dellaccademia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8015269332af66a8dac60759d51fec66> .
+ns1:museo-di-palazzo-vecchio-museo-delle-opere-darte-recuperate-collezio
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/91363a62fd9968f67d6f5203baee78b8> .
+ns1:antiquario-felice-cartoni
+	core:originatorID	ns2:fbc6f46d45925369613b97991cd7ee88 .
+ns1:collezione-leopoldo-de-medici
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1792116b9eac075f97452c3b4846065c> .
+ns1:gallerie-fiorentine
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/978aaab58097df1770d0acada9f72b13> .
+ns1:museo-degli-argenti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2609c7ff26a4e0bd2be75519b9eb9e62> .
+<https://w3id.org/arco/resource/CISNameInTime/1473552273255>
+	core:originatorID	ns2:c6c1c316819567bd3aae8540ecdab5b9 .
+ns1:collezione-privata-angeloni-alfredo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3a28a4f535510b4340291a7d3aee213e> .
+ns1:fondo-conventi-soppressi
+	core:originatorID	ns2:cb944842abbbce69a40882028fab821b .
+ns1:museo-nazionale-di-palazzo-mansi-collezione-angeloni-alfredo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/265a2f7bae584e0e88025a98b0a11eb8> .
+ns1:museo-nazionale-di-palazzo-mansi-raccolta-menichetti
+	core:originatorID	ns2:ffdca91b001f89493a74029eeac126c6 .
+ns1:collezione-privata-lucchesi-urbano
+	core:originatorID	ns2:ed7ef1eb2749376c33e00a307dff184b .
+ns1:pinacoteca-comunale
+	core:originatorID	ns2:b0e5d3928d4948a236d615e0ab1c20b9 , ns2:a61fd3a28ce2844877dd26ece5fdf9b5 , <https://w3id.org/arco/resource/CulturalInstituteOrSite/0a5ee6691fe34418d0cfb4367e4a2fe4> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/0a95de9cad5a7ff049af48c43f35adc4> .
+ns1:raccolte-di-carlo-lodovico-di-borbone
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/47ee42ad890790f58ba7c7dce184dcd7> .
+ns1:raccolta-nando-salce
+	core:originatorID	ns2:b3681bf912e5e002f61cb2c4d43a64c8 .
+ns1:collezione-fabretti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/377e62f9db9e9a4ba0c402160ba639c9> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/37ee92de4e08221bdf0ea1d44e3a3acc> .
+ns1:coll-privata-barsanti-alfredo
+	core:originatorID	ns2:ca619677986ecf848d26796927cb0dc2 .
+ns1:collezione-privata-gorga-evan
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/869cfbb0529f6a9bfbe47cdc1910875b> .
+ns1:collezione-privata-odescalchi-ladislao
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9fd7950f07df7cd2ff4c06445692263a> .
+ns1:galleria-corsini
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/30611fe27c506d830507516b00e1180a> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/82f3732102bc9adefe7b5ba578c5ebcd> .
+ns1:galleria-nazionale-darte-antica
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/5abeffef795cb286f15ae97f2725de22> , ns2:cba87668e0d68314ea021668d90513b9 .
+ns1:museo-di-arte-industriale-e-decorative
+	core:originatorID	ns2:adc937bb381f08203732cd0f6a56c788 .
+ns1:circolo-ufficiali-forze-armate
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1ad5d311eaac681d3c6f5a1920ac9bd8> , ns2:c1d8926b787d01b0e59610ff2addfc9d .
+ns1:collezione-dusmet
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8b1095643d552429973fe630d3b84606> .
+ns1:collezione-privata-cavaceppi-bartolomeo
+	core:originatorID	ns2:de81da89ffd3c2ccf038593820bd16e9 .
+ns1:collezione-privata-doria-pamphili
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/68f08e74a568f8c5ab5af084437958f3> .
+ns1:collezione-privata-torlonia-giovanni
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/741f4151967e76ec5c90c6694eda8535> .
+ns1:museo-nazionale-del-palazzo-di-venezia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/02dbead5330b62d12e2efea896598d6c> .
+ns1:collezione-privata-auriti-giacinto
+	core:originatorID	ns2:afc02833776b428b0773be623fca6ed5 .
+ns1:piazza-bocca-della-verita-18
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9bc307af530abc062222ce81fae77485> .
+ns1:collezione-privata-cataldi-maria-luisa-ved-cafiero
+	core:originatorID	ns2:dbdb9506781723fa9f97572d5b1e6c14 .
+ns1:museo-civico-e-pinacoteca
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/423f2a0888ad112f006eea21b84fc226> .
+ns1:dipartimento-delle-arti-visive
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/01cc71056478e62af762780054162372> .
+ns1:fondo-ragazzi
+	core:originatorID	ns2:c7820cdceb58f7e2d2da97fd3257d2b9 .
+ns1:collezione-giacomo-e-nicola-giuliani
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/5513965d530147d492950910383de686> , ns2:a211bad1e6b5f50a484c5a8e14dddcac , ns2:bcbebaa9cbb17dbba43d018edeb6369a , <https://w3id.org/arco/resource/CulturalInstituteOrSite/428014d510e4dcc94eb7cae6d5db5603> .
+ns1:collezione-ducale-farnese
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/42d81f0d4f448feaa140e1aff2cbd8b0> .
+ns1:collezione-privata-sanvitale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/46ad3a508492b3a36771872688454de7> , ns2:e8662eaf46b6b5c5294abae2a23328dc .
+ns1:collezioni-ducali
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/80c310fe53f37d73f56fa586ed5a26a1> , ns2:bf5d340591202e3819b73d46e7df306e .
+ns1:collezioni-privata-sanvitale
+	core:originatorID	ns2:ef1007675a775872708c240ab9ad9979 .
+ns1:galleria-nazionale-di-parma
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/50c048c54ec599a4f0e09a76b4fc09fa> , ns2:aa27da645507b7cdcfb15b5934bc8da1 .
+ns1:collezione-ducale-borbone
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9dfb9fc1607480eb79db528762c107ea> .
+ns1:collezione-ducale-maria-luigia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9b1fd938af1438dccc0ece17f4aa9ba8> .
+ns1:collezione-privata-aglietti
+	core:originatorID	ns2:bd73b03e9c00747585773aa51645acfa .
+ns1:collezione-privata-baiardi
+	core:originatorID	ns2:bd897565ec47a4a551206b638d54cb4d .
+ns1:collezione-privata-callani
+	core:originatorID	ns2:e90041563efb1280dc0aac0d4c19e05e .
+ns1:collezione-privata-dalla-rosa-prati
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1adafd59ff6f10772c4ae885c97bca29> .
+ns1:collezione-privata-nardini
+	core:originatorID	ns2:c51ac3197dd96a50201736dfff1519c6 .
+ns1:collezione-privata-paolo-toschi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/49d1d61115c06b9f2e14a170bc343165> .
+ns1:collezione-privata-rossi-beccali
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/776e5f99f6585f06416ee2cc8efcf35b> .
+ns1:collezione-privata-ruspaggiari
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/16cc28f710bb41212cb1bfacc405004b> .
+ns1:galleria-dellaccademia-di-belle-arti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7554478e59b0774903649e76425afb00> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/31f0a13a7d71c2c085ef062653c1da06> .
+ns1:museo-civico-di-piacenza
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/883d14962e570ed24b2f63f437363551> .
+ns1:collezione-privata-allay-bodoni
+	core:originatorID	ns2:d989de30ede0c2b97dc0b22f872bb9a8 .
+ns1:collezione-privata-boscoli
+	core:originatorID	ns2:e98dfb69bb3b167e57506eef424e12c6 .
+ns1:galleria-nazionale-dellumbria
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7f7b86ba7fe66f4827937ae0804efe26> .
+ns1:msn-fi-sezione-di-mineralogia-e-litologia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6bd336699ee06fbb695bf90113f2766e> .
+ns1:collezione-del-cardinale-carlo-dei-medici
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/10b4b0b52cbdf7cf9f2eec6a61e53b00> .
+ns1:collezione-del-gran-principe-ferdinando-dei-medici
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/0fe88c6477bbf00c4c0c331e6ed936a2> .
+ns1:collezione-di-ferdinando-de-medici
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7b70238bf8318112a28f7371335fd12b> .
+ns1:collezione-papafava
+	core:originatorID	ns2:d5bf76afabe03a1b482e7f4f5e4e861d .
+ns1:collezione-privata-aldo-guetta
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/85b209a41c26a49329cb62621bf7e80f> .
+ns1:collezione-ulivelli
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/653118b87f4b1aca868e2821d2b5cc9e> .
+ns1:maria-e-domenico-rigazio
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/71419a9b2989a3025df791d8575e49e0> .
+ns1:museo-del-paesaggio
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6cd6b176cc4bb2ad912a2ae88e91ba6a> .
+ns1:museo-leone
+	core:originatorID	ns2:fe57e3899de33a2373d1b215397ce00b .
+ns1:museo-sardo-di-antropologia-ed-etnografia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/208729577752f7bc39c213a35bf5315f> , ns2:cabbe06e3800497626c31eccc4f45c01 .
+ns1:strumenti-scientifici
+	core:originatorID	ns2:e2dd9942af8490ca9a90fdfdba558d1c .
+ns1:collezione-privata-di-diapositive-maxia-carlo
+	core:originatorID	ns2:edaa802525d56d497748bc66b5e3763e .
+ns1:antiquario-palatino
+	core:originatorID	ns2:e6a6c6a09a287fbf759fec4abd70244e .
+ns1:civico-museo-di-guerra-per-la-pace-diego-de-henriquez
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/67759dd3a418f2ed5813149fcf4ede52> .
+ns1:magazzino-soprintendenza-abap
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6e47ccd250b258942de40bd2910d84b2> .
+ns1:museo-nazionale-di-san-matteo-ex-museo-civico
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2f7dbb61a56177ea5f07933d15993022> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/178777174648da31728bc6836481aac7> .
+ns1:ninfeo-di-punta-epitaffio
+	core:originatorID	ns2:d6c3948101f2b28ee4baf024ee5c80d6 .
+ns1:soprintendenza-archeologia-belle-arti-e-paesaggio-per-le-province-di-verona-rovigo-e-vicenza-sabap-vr
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9413bba2780c78f676d01e9ceadfc7dd> , ns2:ca72661822db7c8ff9253ab8821fe47e , <https://w3id.org/arco/resource/CulturalInstituteOrSite/742b092fbab69f9808c8ec4c67c632ba> .
+ns1:soprintendenza-archeologia-belle-arti-e-paesaggio-per-le-provincie-di-verona-rovigo-e-vicenza-sabap-vr
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/66a33010bf74e19d927991d1f7a1d01b> .
+ns1:collezinoi-medicee-granducali
+	core:originatorID	ns2:b631bcdc3a27740ba7ea98c54c121098 .
+ns1:museo-della-basilica-dellimpruneta
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/07727cdb3ba4fc949834adce2194a041> .
+ns1:collezione-privata-micheluzzi-mafalda
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/69e3f802cbf02793eb277f00dc15d251> .
+ns1:museo-delle-scienze
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/55cdd883f6889d6cded7fc3bb4f7acc5> .
+ns1:soprintendenza-per-i-beni-storici-artistici-etnoantropologici-di-bologna-ferrara-forli-cesena-ravenna-e-rimini
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/292a01e49a50dd7feeafa4219526b8f8> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/5f4c1f2a7f49d562a1769b1f2149bfe0> .
+<https://w3id.org/arco/resource/CulturalInstituteOrSiteIdentifier/52e9543ed285c89c64f4327f479b5835>
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/5f4c1f2a7f49d562a1769b1f2149bfe0> .
+ns1:palazzo-dei-priori-palazzo-della-signoria
+	core:originatorID	ns2:d40e050d2822b6c48d8fba6d55258bf3 .
+ns1:soprintendenza-per-i-beni-architettonici-e-paesaggistici-per-le-province-di-bologna-modena-e-reggio-emilia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/243f09388b5c1dd26e3a203765d3380b> .
+ns1:collezione-privata-ing-lelio-lami
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/51c55cc5cf7ce70d30e052c3912cbf97> .
+ns1:piacoteca-civica-di-teramo
+	core:originatorID	ns2:c72d0070ec7e6e7f7b6d0b1a0f61e0fb .
+ns1:museo-di-palazzo-reale-di-genova
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9b49ad05b7b2d9927f12bee863b316c3> .
+ns1:archivio
+	core:originatorID	ns2:e3682762420f17cd429e9652114f6395 .
+ns1:collezione-privata-corsi-arnaldo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/78919a46a33dc0f197bae3d24a67ee80> , ns2:d2a4fc1552130cdad4f3d7b8504117ef .
+ns1:galleria-corsi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/09766174a96ba8a5fbfed7e85dfdf57b> .
+ns1:museo-marino-marini
+	core:originatorID	ns2:ea1b831ebdabbe55bc1486d78d9225c5 .
+ns1:raccolta-casa-rodolfo-siviero
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/132e61f9dfa7d3e5cc9ccc8c76b77393> .
+ns1:cenacolo-di-fuligno
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/14246ebe63ebc31ab0119685c2f63292> .
+ns1:collezione-pucci
+	core:originatorID	ns2:b44b098c10ff05abf9c4981f9b1a7f6b .
+ns1:depositi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3806bf4f6ff32d6614cc89f1e5d001cd> .
+ns1:museo-della-casa-fiorentina
+	core:originatorID	ns2:e56d89e22dd0f96fce25dd0cac42785f .
+ns1:collezione-canova
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/4cd294c9afcd1fa026c51e656b63553a> .
+ns1:museo-civico-di-palazzo-pretorio
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/581f86270b86886703d12dcb3b8446f6> .
+ns1:museo-nazionale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/21a43b8f2b332e16f7611be2cb47095a> .
+ns1:museo-storico-topografico-firenze-comera
+	core:originatorID	ns2:a3b32cf9b963f3e35610d3c9fac2a4e3 , ns2:dca878532beb9dbce4902248427515d1 .
+ns1:soprintendenza-speciale-archeologia-belle-arti-e-paesaggio-di-roma
+	core:originatorID	ns2:f0e51d26c991192051afaed64787b09c .
+ns1:accademia-delle-belle-arti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3b16b081d5039afe36d614b58c5ec0a9> .
+ns1:gabinetto-disegni-e-stampe
+	core:originatorID	ns2:bf316a5498965b242c76dce5d7c465bc .
+ns1:opera-del-duomo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1a1f26b9d260d213bd4f93e73ab05de0> .
+ns1:zucchetti
+	core:originatorID	ns2:cc16b6daad9d484106857a3ff084759c .
+ns1:collezione-privata-ruffo
+	core:originatorID	ns2:ab17be8db7bd53c1615635a43182b676 .
+ns1:collezione-privata-wurts
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/92492f23a9bc97aa497a889ff8414cd9> .
+ns1:cappella-municipale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/749040f83d3863b2ff476e5922849e5b> .
+ns1:mostra-del-sindacato-interprovinciale-fascista-di-belle-arti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/698cdcb529a4eb412ffe87e63f2276c5> .
+ns1:quadreria-dellaccademia-di-belle-arti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/056bb7a61be4f99909eb52cf39e5edcf> .
+ns1:cavalcanti-ottavio
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/60a26d6be2eab99c64a546f0b7a3b400> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/651e508b1f6e5a94fdb7c2679cda5fd7> .
+ns1:centro-operativo-per-larcheologia-di-bari
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/80b45e6d2b336a80c3ef3886a14839ab> .
+ns1:museo-calabrese-di-etnografia-e-folklore
+	core:originatorID	ns2:e1258cd4903eab9174977951654be2b3 .
+ns1:museo-calabrese-di-etnografia-e-folklore-r-corso
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/34dc275adf701251e4dd7afe916db9d1> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/99068ec774cfa46663c18d0d80303e5a> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/37c5c34afeb35ef63487dcfadb1c2a63> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/6334a3ead1d22c4233ef62c92ce32715> , ns2:defae83a9ca990b420e8ac2b91fefc04 , <https://w3id.org/arco/resource/CulturalInstituteOrSite/4ec806ed4c8ed635cf577ee8f6bceca0> , ns2:c2a23bf2c36b1d2583896780cf895fd1 .
+<https://w3id.org/arco/resource/CISNameInTime/museo-civico%3A-sezione-folklorica-quotr-lombardi-satrianiquot>
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/0791d56c67564b2a119c502e4cd6b39f> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/3e9f5691d25166eec55feee6376b41c0> .
+ns1:collezione-quaglia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9e9da3293bb493defaa334597f860a13> .
+ns1:musei-civici-di-como
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/4955ecfbced51c25e1c51f27ba262dc7> .
+ns1:sicilia-fiorella
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8515e5af6039e4dff94b09dc5919dde7> .
+ns1:archivio-fotografico-sbap-bs
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/34ba488b6aa4613b4fa2d7bbca363dc2> , ns2:e7451b453e9f422adf6d4ee5a6a00e6a .
+ns1:museo-della-civilta-contadina-ed-artigiana-della-calabria
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/40fec3f4f70d6eebb1a2cbe7f183ebbd> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/915bcb656a9a0f168843deb5fa1559a3> , ns2:c9286d3ca8b73ee526822ce498ff5dc4 .
+ns1:collezione-privata-chiappelli
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/941e54f3e343dbc7e3424f304f91c338> .
+ns1:collezione-puccini
+	core:originatorID	ns2:a6cc6d270731d9fb4941f7bef2a2b645 .
+ns1:collezione-sozzifanti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/17151f231abe32cf8b703c62b33fe011> .
+ns1:museo-civico-di-pistoia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2a88891ed755b4c87df07b170579e330> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/5b01f49f0c956bb9da81ec7ad6f24aa6> .
+ns1:museo-dellopera-di-s-croce
+	core:originatorID	ns2:d273e721fbd4aa9a12618612b92b1ee3 , ns2:ddcec22556eda4ab31f465c2c1125120 .
+ns1:museo-di-storia-naturale-istituto-di-mineralogia-e-petrografia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/11fe39fd236eb383ad4d67eddab2de0d> .
+ns1:collezione-del-museo-civico
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7d09a8a9b879ce57124911a59017166b> .
+ns1:collezione-del-museo-della-cattedrale-di-s-zeno
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7b2007e4452754cc214e08760d2d868f> .
+ns1:collezione-privata-filippo-cassigoli
+	core:originatorID	ns2:f042d5bcbafee0a5e1d90948205becf5 .
+ns1:raccolta-chiappelli
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/79b4d29f9a1d76318e7b13b3133e9245> .
+ns1:raccolta-chiappelli-luigi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/28d32879af2c55d064e668d861877ad0> .
+ns1:antiquarium-e-lapidarium-comunale
+	core:originatorID	ns2:c96b657cd4679c81c2732bd36269ca8d .
+ns1:centro-culturale-valdese
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8a741783f03f930f799637522bf1748a> .
+ns1:collezione-del-cardinale-leopoldo-de-medici
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7dd7a6d3d62eb00e4393462e4c416c3c> .
+ns1:collezione-del-gran-principe-ferdinando-de-medici
+	core:originatorID	ns2:f520d2f99738c0b6e0bebaa2f48b8731 .
+ns1:collezione-del-principe-ferdinando-di-toscana
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2ee315b4c3b72ae9d9d2fd38c9df23f6> .
+ns1:collezione-di-cosimo-iii
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/63c209a9eaef4121641889172e61f4c9> .
+ns1:collezione-di-violante-di-baviera
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/46ec883b428ea3802d534d2b9d550264> .
+ns1:collezione-gran-principe-ferdinando-de-medici
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3c60ce0d373fbed76a3d0d2190b9dc2e> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/373d7b0a48c3a4dd63b08154908a98ad> .
+ns1:fondo-davide-bert
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/033c746befb9a92d33b28009d116e3f0> .
+ns1:guardaroba
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/69ba20c49576d5183e49cc33f9cf03d2> .
+ns1:museo-civico-archeologico-michele-petrone
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/228c713692b81a52e6d6c68c68f502af> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/41e60a2fdaadc6d56025c17d5924bdd7> .
+ns1:museo-civico-g-fiorelli
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/904fed0ac4434568c848a4e59b9f8001> , ns2:af7ae4a63d8692e2b3aa9b8e80b534b6 .
+ns1:museo-civico-michele-petrone
+	core:originatorID	ns2:fc8712248efd452891fa8fb9db48fee8 .
+ns1:museo-del-cenacolo-di-andrea-del-sarto-deposito
+	core:originatorID	ns2:ff7b44866659349b7b6468e826415251 .
+ns1:raccolta-zoologica
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/59a77328ca514937030335b8581e327f> .
+ns1:soprintendenza-ai-monumenti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/52f89babfc4dc0d1b30f27f7fe81863a> .
+ns1:collezione-principe-ferdinando-de-medici
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/13078458db976073269ef2b3e0ef88c1> .
+ns1:galleria-dellacademia
+	core:originatorID	ns2:b3e2580ac60977527e727a0cafa33dc3 .
+ns1:museo-di-palazzo-bandini
+	core:originatorID	ns2:d48c01def1b598aaedbd9faed69d80da .
+ns1:pinacoteca-della-galleria-dellaccademia-di-belle-arti
+	core:originatorID	ns2:a186bbfb22dd6c70bbe5e43952cdc4ab .
+ns1:collezione-fantastici
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2c70bd81ad16cacbeeed966ea59db748> .
+ns1:gipsoteca-provinciale
+	core:originatorID	ns2:c3f6e3e7cec4e203ab325f6d255199b9 .
+ns1:collezione-privata-luigi-malle
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/91b4295294ba8847a057a78545a27952> .
+ns1:museo-darte-sacra
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/13adcdd5752af3e239bb95cd127ca86d> .
+ns1:collezione-galleria-regionale-palazzo-abatellis
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/59aa2015ed6fe33cc2cb45b366e12fec> .
+ns1:collezione-privata-gb-marchesini
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7c429124d875aa068fe6a5d8c2fdb2cb> , ns2:bde25e98b62326c9dded7c118621052e .
+ns1:galleria-nazionale
+	core:originatorID	ns2:ba432e9b6b3a628b8ad8fafe9fe88c3d .
+ns1:istituto-magistrale-statale-isabella-gonzaga
+	core:originatorID	ns2:dfedbcb979fb1a05c1644e7e51c9fff9 .
+ns1:raccolta-benfratello
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/5a3b8350be11ae1990d6ee70d89cba11> .
+ns1:ciardi-giuseppe
+	core:originatorID	ns2:e6a9e7b26e7f25fd19c696c469a0c9d7 .
+ns1:coll-deman-silly
+	core:originatorID	ns2:aec175d258c0cb9f76583fab93811c97 .
+ns1:collezione-guidi-marcello
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9260d4bd6132f8341dea582911597812> .
+ns1:collezione-privata-emanuele-castelbarco
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1bbc0ad94328999be4afe6751a95a032> .
+ns1:collezione-vittorio-rubiu
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2a3841603786a9ea70e5433068098fdc> .
+ns1:del-drago
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/50d6589c57c7d561b9a2b9385d46ab5a> .
+ns1:ferruccio-ferruzzi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/82d1d811ccce45e10a0583f55da22ea5> .
+ns1:melchers-gari
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/597e89e1441e7df37da3153096e9849d> .
+ns1:collezione-privata-tove-alm
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/98a6d3e003d0681b10ac0fa81043e57d> .
+ns1:museo-artistico-industriale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/387d8ab7915a7a0495294c4ae6377b02> .
+ns1:collezione-francesco-fracassi
+	core:originatorID	ns2:dd6d707dba738b2c9cc9d33a9fcc8302 .
+ns1:collezione-gran-principe-ferdinando
+	core:originatorID	ns2:ff6eedd2a675bdcc5bf3e2d0b4bd1c35 .
+ns1:corridoio-vasariano
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6c64c7a11ed25dfb34f67cf270219942> .
+ns1:guardaroba-granducale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/15b17af29439d14958bf3041dae17658> .
+ns1:istituto-superiore-per-la-conservazione-e-il-restauro
+	core:originatorID	ns2:c46d4980573a8b71210280c48e80ced1 , <https://w3id.org/arco/resource/CulturalInstituteOrSite/644d8d120bfd04cc3f088eed7f5391cf> .
+ns1:museo-civico-tuscolano
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3b7e1f3979cedb09d5f8abe73458dcf9> .
+ns1:museo-darte-medievale-e-moderna
+	core:originatorID	ns2:d92508a920724ee178d188af5508562e , <https://w3id.org/arco/resource/CulturalInstituteOrSite/04f1e48937495dfcc0d8ac3a0ac5286d> .
+ns1:museo-di-antropologia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/4e5f702af7034e0d74042fd1f940eff9> .
+ns1:museo-di-firenze-comera
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/694ccc1f7c0ea2bc2af74b702ad5346a> .
+ns1:santa-marta-al-collegio-romano
+	core:originatorID	ns2:df58bf92790ac0e4e7a6878e8c0c61df .
+ns1:collezione-del-principe-ferdinando
+	core:originatorID	ns2:e6682f679d6d06854ec9f0238a1b1240 .
+ns1:a-von-huegel-cambridge-1-1889
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6332045c60a0670df5a9384bb04980a1> .
+ns1:balfour-oxford-17-6-1903
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/096893db3899dfd0585912bfd34bd86b> .
+ns1:coll-capodimonte-1874-n1351
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9c67eb76e29ad537045dbd5c40368526> .
+ns1:coll-notari
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9903595665d339d31dfda60b530ea80e> .
+ns1:coll-perruca-a
+	core:originatorID	ns2:e85b827236303f7844f12af179114fe9 .
+ns1:coll-priv-a-perruca
+	core:originatorID	ns2:bf30bd0ca8a66073835c4c9bd81656d2 .
+ns1:coll-priv-p-mantegazza-1882
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8e6223a5f9f1cd379807c7a35628280c> .
+ns1:e-lovett-15-x-1886
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/33350d73e2aa738a1e703e5e49b55761> .
+ns1:ex-indian-museum-calcutta-6-1890
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/55c773f7be4a1823793f2725fbc68fd5> , ns2:f8246adb498be21ee34456d8df239040 .
+ns1:g-a-frank-22-10-1895
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/64fc7d917811cdd14134b895cc48fcdb> .
+ns1:h-w-seton-karr-15-2-1903
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3713f1afc3f6b8ad188f2321f952c08b> .
+ns1:j-anderson-16-3-1895
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/110d7ec0ee13e3fce6b384570c44940f> .
+ns1:j-milne-25-7-1887
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/0a4ff07cb99df4a3a0f2de7a0c0fd967> .
+ns1:lord-curzon-12-5-1905
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/11ee297bcad7d74374ab1988be28b5ab> .
+ns1:museo-etnografico-copenaghen-12-12-1894
+	core:originatorID	ns2:fc89895fca3e68b5dc16c21a7f64b52a .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv-n-86
+	core:originatorID	ns2:c1768c8bc60046a8a329b98ea481919e .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv-n58
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1f667c530256eb359e9850b9c0f0688d> .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv53
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/47f0cdeff656ad5bc82e415964d4af27> .
+ns1:p-e-f-sarasin-da-bale-25-12-1908
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/41a56bc7393c448176ced7a4b67909dd> .
+ns1:p-e-s-sarasin-di-bale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2de34f395e1a322d9e580317c7d683fd> .
+ns1:padre-g-giraldi-a-biondi-1895
+	core:originatorID	ns2:cf0a1b864762a8f2ae86a4826026c2af .
+ns1:re-di-el-hegiaz-1914-dono-a-sm-re-ditalia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/67ea98a89ba9cbf8cfc78d0a5ac3fdf0> .
+ns1:acquistata-da-webster-30-6-1897-londra
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/16e94197a6f47588ee5ad8498930b258> .
+ns1:avon-hugel-cambridge-1-1889
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/42eeb267b235c72553f31bcfed9ccd3c> .
+ns1:coll-priv-a-radice-9-6-1909
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/16e36076207095846f5ed7c0cdc673ef> .
+ns1:dono-j-milne-25-7-1887
+	core:originatorID	ns2:b0741f0c882f85fa827a938ab6fcd225 .
+ns1:e-bidwel-15-6-1905
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/890209bbb01e0b91bb00d957d1e83573> .
+ns1:g-bolmida-firenze-1894
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9a5be854550ecd2f1b857b0ebf6ed4b8> .
+ns1:g-bolmida-roma-1890
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/29ba6a760c8ffaba523465200f991bf7> .
+ns1:geok-teat
+	core:originatorID	ns2:de41db5dac5b99296cd86817f35dd8f9 .
+ns1:indian-museum-calcutta-6-1890
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/29bd47d102394a76c9777dfa5e5b72aa> .
+ns1:museo-etnog-leida-20-3-1887
+	core:originatorID	ns2:b17b84e20156b6d6b4cbe2445cb1e916 .
+ns1:museo-etnografico-di-copenaghen-7-6-1888
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9a2855f2776ca93052a92dd29971f511> .
+ns1:museo-strumdel-comdi-tunisi-della-socnazdante-alighieri-invn7
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3755aec956fe3b63f31b3c526b85b956> .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv-n-12
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6b5de69fe1a443b9f14b4236f5b6b85d> .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv-n-69
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2a285cfd514209dabc85052e3a94c182> .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv-n-83
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/554ae2ca45493b29eabaf8ac65182d90> .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv-n-93
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/45e963c5fefae8d2056c54260cf1b8f6> .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv-n36
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8ae084b8cd3047b9a3cc3bdbc2d3eae4> .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv-n84
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3248da84e54f0cec84c6134ca41b5eee> .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-invn19
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7bc1a24d7d3170372b26cb2bac6deec8> .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-invn20
+	core:originatorID	ns2:d074034b9f284bd675131a3175799bae .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-invn27
+	core:originatorID	ns2:cd431b16b4fc4fc0d60b6cef9f41e2ea .
+ns1:seton-karr-15-2-1903
+	core:originatorID	ns2:d0718067c184fcfeb3267859772fd0b5 .
+ns1:amburgo-2-xi-1895
+	core:originatorID	ns2:b7ee84699ac8fd43d32ee6875c64e120 .
+ns1:indian-museum-calcutta
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/79d487e311061f2bd10ac10a56823961> .
+ns1:milne-10-1886
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/745ac7299742dadcfcb92e8c7a25dc93> .
+ns1:museo-di-copenaghen-12-12-1894
+	core:originatorID	ns2:e8306449f6d8b8d1e08a9c06431a37f8 .
+ns1:museo-strumentale-soc-naz-d-alighieri-tunisi-inv92
+	core:originatorID	ns2:bff8fc1c41d040eb28b0100320545325 .
+ns1:museo-civico-di-fucecchio
+	core:originatorID	ns2:e8e7f1a5ce9d27d2c380a8e0a8cd2439 .
+ns1:cardinale-ercole-rangone
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/93504a23a5ea0f466dd4772ba1fd49d3> .
+ns1:collezione-gerini
+	core:originatorID	ns2:c2e70be069acf1cc74bdb3e6b64abc21 .
+ns1:collezione-michele-paradisi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/4627760ff559227ccad949b92bc16098> .
+ns1:collezioni-di-ferdinando-iii-di-lorena
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/135446de4371f83e14e9a92b0966a73d> .
+ns1:guardaroba-di-guidobaldo-della-rovere
+	core:originatorID	ns2:a81114dc508d65befefd81ba1f1e4b98 .
+ns1:ministero-per-le-gallerie-fiorentine
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/543251266ca4b9fd13a6cf2bc93fd0d0> .
+ns1:museo-della-natura-morta
+	core:originatorID	ns2:d747d3a41e01e90bdd533926ca9b0dda .
+ns1:collezione-privata-piselli-carnevali
+	core:originatorID	ns2:c04515609f68e64e647ebfd5678cc937 .
+ns1:istituto-e-museo-di-antropologia-ed-etnografia-universita-di-torino
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/03dd2bcc7bf63cea8705a472a2e56906> .
+ns1:museo-interdisciplinare-regionale-di-messina
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3f2925dcf180ad6bd8891f19a3d97577> .
+ns1:via-domenico-ridola-24
+	core:originatorID	ns2:b23cca1647167439a043aa9f31b63ac9 .
+ns1:gipsoteca-bartoliniana
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/046232d86b7357899b1fd993c7136f54> .
+ns1:quartiere-d-inverno
+	core:originatorID	ns2:ffff52a05b2bf7d2dd552f158ad12040 .
+ns1:archivio-sbap-vr
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7ffac4ec59d281896e0b0961b52c475f> , ns2:eb0ce3e49041f1bb5ed6241dd9824d01 .
+ns1:collezione-privata-piazza
+	core:originatorID	ns2:da234607cc22fe804994d25431618ff4 .
+ns1:archivio-capitolare
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6b20024e143e54e7c681a8493db0b8e1> .
+<https://w3id.org/arco/resource/CISNameInTime/museo-d%E2%80%99arte-orientale>
+	core:originatorID	ns2:d30071978d5ddf5eccb7876384fcff4c .
+ns1:museo-civico-del-risorgimento-nazionale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/96cd7e5060778052b605f70675045a9d> .
+ns1:collezione-privata-elisabeth-chaplin
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1c0f05e87938dfef271f8a55bb50dbd0> .
+ns1:museo-dello-spedale-degli-innocenti
+	core:originatorID	ns2:c68c8f6a621c34d235238fc1953fc37e , ns2:d06bf33d51b73e70e758a8fc41036080 .
+ns1:museo-della-valle
+	core:originatorID	ns2:df735ddf5cad05855b5baec97760b905 .
+ns1:collezione-civica-di-artisti-sardi-francesco-ciusa
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/98df71ae8bc4e0b883eeb781e297449b> .
+ns1:raccolta-ferrari
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/36844cede66e53b3aff5cb2d5f4724c4> .
+ns1:raccolta-tirelli
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/278837082c2182061ba9bc9a705d92a0> .
+ns1:museo-di-anatomia-umana-filippo-civini
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/422443b08334308acf53d91f385c9da1> .
+ns1:museo-di-anatomia-umana-filippo-covinini
+	core:originatorID	ns2:e890766c7f7b153db0f353a528a57e91 .
+ns1:museo-civico-sa-domu-nosta-senorbi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2a5173cdcf222ca7133d0d542fd41f54> .
+ns1:museo-di-geologia-e-paleontologia-domenico-lovisato
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1dc2cfe7a4db7c38a53b764da33d0c95> .
+ns1:comune-di-roma
+	core:originatorID	ns2:e9ea4548f8af7493e2a6ece0d1d2c842 .
+ns1:collezione-spada-veralli
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/78567fb9c3a490a20d8356939087222f> .
+ns1:museo-nazionale-di-castel-s-angelo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/56fc0fa898526207287cdbf7a8a40f47> .
+ns1:collezione-anna-maria-luisa-de-medici-elettrice-palatina
+	core:originatorID	ns2:e0c8e80afc818066f54451130eef8961 .
+ns1:collezione-taddei
+	core:originatorID	ns2:f043853ffa6eda7cc9abff59cca4a402 .
+ns1:collezioni-granducali-medicee-cosimo-iii-o-ferdinando-de-medici
+	core:originatorID	ns2:a1dc88ce0e30c12ca815578f2f4ebde6 .
+ns1:museo-dellopificio-delle-pietre-dure
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/330b687ef39d772166e74113f492e1b1> .
+ns1:pandora-old-master-new-york
+	core:originatorID	ns2:bc91c624c52c83441d92747f5ab7663f .
+ns1:soprintendenza-antichita-etruria
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6a70bd10ed252e6baa8257536e9cb8a0> .
+ns1:archivio-del-dipartimento-di-beni-culturali
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/977a43d7246abba3f6a3a822789750a6> .
+ns1:dipsum-fondo-samaritani
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/371c9ec213d84d5aaf15ebacf91f3fdb> .
+ns1:dispac-fondo-samaritani
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/528189240bb8c8988d42dcb90d2c1658> .
+ns1:la-fortuna-di-paestum-sezione-edita
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/5cf793ce6872491dd7589d0e7b9b07f3> .
+ns1:collezione-carlo-l-ragghianti
+	core:originatorID	ns2:c14891843c9abb119884b1788b1601ba .
+ns1:collezioni-lorenesi
+	core:originatorID	ns2:bac03a3a5cb2c4010ae7f94febbdd7cc .
+ns1:collezione-birardi
+	core:originatorID	ns2:c9a2a353c59381e372da605144e357a3 .
+ns1:collezione-bocchi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/07e3e70e4b6c93ce7337c6174932bd10> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/5d5c0d6c44c8d1e75b40dbca2b82c705> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/8da486a21e2fb2042bee880b3d3e549e> .
+ns1:collezione-mario-birardi
+	core:originatorID	ns2:a54a745bcd9c29cea98f0d63a3194efc .
+ns1:musa-pinacoteca-al-canopoleno
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/4a226b1e6645bd078ec784f0bc7d1fba> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/85e41cbdb47d07bbe26daf2a4819cd40> .
+ns1:museo-archeologico-nazionale-adria
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/4d72f4308a08c71bf4a6f87fe44c8348> .
+ns1:museo-archeologico-nazionale-di-adria
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6687dd2b07ee0212d95444fe7de3da66> .
+ns1:museo-nazionale-di-villa-pisani
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/30a85eff9cc4ee71d45b16bc4475b20a> .
+ns1:museo-nazionale-villa-pisani
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/0ad105b30c962256b32da426ba16a4b4> .
+ns1:prefettura-di-sassari
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/6858947f24a4bd1e4fccf84fccbd5721> .
+ns1:collezione-barberini
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/36ce0adcd8853e840b98b4903e1b9672> .
+ns1:collezione-civica
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/4c1153510fba7d9c5597ab218980feb0> .
+ns1:collezione-zanirato
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7bb7eeccfc0e251ea56fd5670926341e> .
+ns1:collocazione-bocchi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9deba57211384e6d02cd06da4c556c02> .
+ns1:pinacoteca-nazionale-sassari
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/531b8b9f9fe4131230ea9f7124358f23> .
+ns1:collezione-privata-contini-bonacossi
+	core:originatorID	ns2:ab0f7456fd462083421e626937d10071 .
+ns1:collezione-privata-menotti-m
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3153e7a2aa6279272899db05d0561b62> .
+ns1:collezione-privata-menotti-mario
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/264d289b85a233d562512a91096d6a69> .
+ns1:museo-nazionale-di-castel-santangelo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/98434bcd0baa761d6034c617494b64f7> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/2dfa1c3500b4860ae6a4b4947b318757> , <https://w3id.org/arco/resource/CulturalInstituteOrSite/64a15be4f46d09512a750dfe546a5449> .
+ns1:collezione-michele-de-napoli
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/240c191b532e76bcf5bfee5d582a5d7a> .
+ns1:collezione-privata-pica-vittorio
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/25b1f9b13b48c66f73a4df39e279fefe> .
+ns1:collezione-angelo-tirabassi
+	core:originatorID	ns2:ee7c86d20081c49df92ebc9a02d6cd7c .
+ns1:museo-archeologico-nazionale
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1135cf456067492c9b83976d8858d497> , ns2:ca8e6fee876ec88133db5c1aa4d14df5 .
+ns1:soprintendenza-ai-monumenti-dellemilia
+	core:originatorID	ns2:ff5cea96bd23cd9508cbd557e2d766cc .
+ns1:soprintendenza-archeologia-belle-arti-e-paesaggio-per-la-citta-metropolitana-di-bologna-e-le-province-di-modena-reggio-emilia-e-ferrara
+	core:originatorID	ns2:d6b73bc0b442a867f00fb773c4c44944 .
+ns1:soprintendenza-per-i-beni-architettonici-e-del-paesaggio-del-piemonte
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/49cd7cc7f5ab7f6d75d1496125cbf737> .
+ns1:collezione-privata-lucarotti-guglielmo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1ddd1f935b4314fc96bc7b3a6a3b106c> .
+ns1:collezione-privata-borromeo-conte-giberto
+	core:originatorID	ns2:e2d6abdc17c05910c11573cd7acabef7 .
+ns1:collezione-privata-cernuschi-enrico
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/53e4e87a31b9f0cf83bc71bd917f7dc4> .
+ns1:collezione-privata-strigelli-appiani-giuseppina-e-possenti-ingcarlo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3d81aa9902c0d649d5f15a42a29bf06b> .
+ns1:collezione-privata-vallardi-giuseppe
+	core:originatorID	ns2:edde01f251fe17c4e5cde10e0f6fa6e7 .
+ns1:raccolte-storiche-dellaccademia-di-brera
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/2b7abee3740d2ff925aa6ab0678cc20f> .
+ns1:collezione-privata-jeanne-fevre
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/53e4e87a31b9f0cf83bc71bd917f7dc4> .
+ns1:collezione-privata-vitali-lamberto
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3f7997a73f4b5e361d4e1540d2480f80> .
+ns1:pinacoteca-di-brera-collezione-vitali
+	core:originatorID	ns2:a06e1a68d36903850a9d3710ea1d6225 .
+ns1:chiostro
+	core:originatorID	ns2:e16ffa3b59f41d99a98521bf89f5e506 .
+ns1:collezione-m-galli
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3f36adce00f6ec0de02627a8d1fee220> .
+ns1:collezione-parri
+	core:originatorID	ns2:de472078dc75b8d4c783ec5cb7bea0cb .
+ns1:gabinetto-disegni-e-stampe-degli-uffizi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/7774f76b347e2beb5b9fd874abbe81a6> .
+<https://w3id.org/arco/resource/CISNameInTime/soprintendenza-per-i-beni-archeologici-dell%E2%80%99emilia-romagna>
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9607f6c939ef838918ad4bc979e520aa> .
+ns1:collezione-privata-di-hellen-jansson-fedi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/24778ee3841060d526e4c4fe5eeb1d29> .
+ns1:magazzino-antica-farmacia-parenti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/56599d529a23ff6b725445828b35c278> .
+ns1:museo-archeologico-regionale-di-palazzo-cappellani
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/34f5e090f92f414fbdeef8099b5efad1> .
+ns1:museo-dellopera-del-duomo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9f6d5d2a2422f68ad93141d0dfd0f01d> , ns2:f9b342bc1706e303c58c1fb07791130a .
+ns1:gipsoteca-libero-andreotti
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/735ea0ac0f37c1c9b26f7079d19eb90a> .
+ns1:collezione-privata
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/28ad1f822328688e6f83f68f216b374b> .
+ns1:gallerie-degli-uffizi-gabinetto-dei-disegni-e-delle-stampe
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/538cbd57bf30a0226b9528197f4899ba> .
+ns1:istituto-centrale-per-il-catalogo-e-la-documentazione
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/109e4b04400f61f9170aef7c0e859b9a> .
+ns1:collezione-san-ciro
+	core:originatorID	ns2:b31d731003c48322e6e8243305a8fd35 .
+ns1:museo-del-cenacolo-di-andrea-del-sarto
+	core:originatorID	ns2:be535fbdb61846fec715c5985646090d .
+ns1:museo-civico
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/36ddd1186c1e8bf090fbe939fc89992a> .
+ns1:pinacoteca-comunale-carlo-servolini
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/0bf093fb4299d6966dc97ffd0e67e43e> .
+ns1:collezione-museo-civico-di-reggio-calabria
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/33e5c44fc0a2c6acd339964e7dc5ddf3> .
+ns1:soprintendenza-archeologia-belle-arti-e-paesaggio-per-le-province-di-ravenna-forli-cesena-e-rimini
+	core:originatorID	ns2:d36dfc001bb130a9af0f0db5e963ccf8 .
+ns1:museo-nazionale-romano
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3b9b6ae1c81d7333812717a6d0823791> .
+ns1:collezione-privata-evan-gorga
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/869cfbb0529f6a9bfbe47cdc1910875b> .
+ns1:pzza-santa-caterina-4
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/1b41dce79626dff341642fcff2a79f2f> .
+ns1:collezione-privata-paolo-vanni
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/860ed8597e189060cf36baea4d5b878e> .
+ns1:museo-del-louvre
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/28ad1f822328688e6f83f68f216b374b> .
+ns1:museo-poldi-pezzoli
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/8675ebe36db4c136a6585d186379db6a> .
+ns1:collezioni-medicee-granducali
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/3721c9d27b49c7523d69438dbea1d03d> .
+ns1:istituto-magistrale-i-gonzaga
+	core:originatorID	ns2:e0a0790e6c009099fd5fbb3c3dd7eeb7 .
+ns1:museo-civico-e-della-ceramica-cerretese
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/682b152dc7a2fab177aee40894f3c6c9> .
+ns1:seminario-regionale-pianum-abruzzo-e-molise
+	core:originatorID	ns2:ea74804c4dbbf6769e4ead72c02f070f .
+ns1:museo-archeologico-nazionale-domenico-ridola
+	core:originatorID	ns2:c8dab736f4b0468f078f05bb87258a5e .
+ns1:fondo-mediceo-lorenese
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/83fd9614c7f84094d8bbf9240016d615> .
+ns1:museo-di-antropologia-e-etnologia
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/33c0668bd48d2052902d7986b30b29d9> .
+ns3:f057f38d166ab6f0bcf965f6309e61e4
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/33c0668bd48d2052902d7986b30b29d9> .
+ns1:galleria-nazionale-darte-moderna
+	core:originatorID	ns2:d366cd112e0468d51a527d1693679064 .
+ns1:collezione-varraud
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/5b0479b85427bd212a88a59ced7c4108> .
+ns1:galleria-nazionale-delle-marche-di-urbino
+	core:originatorID	ns2:f4ef42db2bb93e4466b3a79cb7b36760 .
+ns1:facolta-di-scienze-matematiche-fisiche-e-naturali
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/0bbd31783dde1f15c35a429b6e52a703> .
+ns1:collezioni-napoleoniche
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/28ad1f822328688e6f83f68f216b374b> .
+ns1:collezione-privata-bartolomeo-cavaceppi
+	core:originatorID	ns2:de81da89ffd3c2ccf038593820bd16e9 .
+ns1:collezione-marcello-guidi
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/9260d4bd6132f8341dea582911597812> .
+ns1:collezione-preau
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/28ad1f822328688e6f83f68f216b374b> .
+ns1:collezione-privata-toschi-paolo
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/49d1d61115c06b9f2e14a170bc343165> .
+ns1:gallerie-dellaccademia
+	core:originatorID	ns2:a07998f23fc93912730879abb7a247ef .
+ns1:collezione-sedelmeyer
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/28ad1f822328688e6f83f68f216b374b> .
+ns1:collezione-ottilio-pesci
+	core:originatorID	<https://w3id.org/arco/resource/CulturalInstituteOrSite/28ad1f822328688e6f83f68f216b374b> .
