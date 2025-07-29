@@ -77,7 +77,11 @@ WHERE {
   FILTER (isURI(?child))
   FILTER (?child != ?authURI)
   ?child rdf:type ?type .
-
+  
+  FILTER NOT EXISTS {
+  ?child a ?classType .
+  FILTER (?classType IN (rdfs:Class, owl:Class))
+  }
   FILTER NOT EXISTS {
   ?child core:originatorID ?origID .
   }

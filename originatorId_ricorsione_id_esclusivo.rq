@@ -7,6 +7,11 @@ WHERE {
   ?child rdf:type ?type .
 
   FILTER NOT EXISTS {
+  ?child a ?classType .
+  FILTER (?classType IN (rdfs:Class, owl:Class))
+  }
+  
+  FILTER NOT EXISTS {
   ?child core:originatorID ?any.
 	?type rdfs:subClassOf* ?excludedType .
 	VALUES ?excludedType {
