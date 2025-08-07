@@ -1,0 +1,17 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ipac: <http://ipac.mic.gov.it/>
+
+CONSTRUCT {
+  ?s ipac:additional-type ?additionalType
+}
+WHERE {
+  ?s ipac:type ?principalType .
+  ?s rdf:type ?additionalType .
+  FILTER (?additionalType != ?principalType)
+  FILTER NOT EXISTS {
+    ?s rdf:type ?moreSpecificType .
+    ?additionalType rdfs:subClassOf+ ?moreSpecificType .
+    FILTER (?additionalType != ?moreSpecificType)
+  }
+}
