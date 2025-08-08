@@ -1,0 +1,39 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?excludedType WHERE {
+  {
+    ?s rdf:type ?excludedType .
+
+    FILTER (
+      ?excludedType IN (
+        owl:Class,
+        rdfs:Class,
+        rdf:Property,
+        owl:ObjectProperty,
+        owl:DatatypeProperty,
+        owl:AnnotationProperty,
+        owl:Ontology,
+        owl:Restriction,
+        rdfs:Datatype,
+        owl:NamedIndividual
+      )
+      ||
+      STRSTARTS(STR(?s), STR(xsd:)) ||
+      STRSTARTS(STR(?s), "http://www.openlinksw.com/virtrdf-data-formats#") ||
+      STRSTARTS(STR(?s), "http://www.openlinksw.com/schemas/virtrdf#") ||
+      STRSTARTS(STR(?s), "http://www.w3.org/ns/sparql-service-description#") ||
+      STRSTARTS(STR(?excludedType), "http://www.w3.org/ns/sparql-service-description#")
+    )
+  }
+  UNION
+  {
+    ?s rdf:type ?excludedType .
+    ?s rdf:type ?broaderType .
+    ?excludedType rdfs:subClassOf+ ?broaderType .
+    FILTER(?excludedType != ?broaderType)
+  }
+}
+LIMIT 1000

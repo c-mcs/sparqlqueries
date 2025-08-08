@@ -4,16 +4,9 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX ipac: <http://ipac.mic.gov.it/>
 
-CONSTRUCT {
-  ?s ipac:type ?principalType
-}
-WHERE {
+SELECT DISTINCT ?principalType WHERE {
   ?s rdf:type ?principalType .
-  FILTER NOT EXISTS {
-    ?s rdf:type ?broaderType .
-    ?principalType rdfs:subClassOf+ ?broaderType .
-    FILTER (?principalType != ?broaderType)
-  }
+
   FILTER NOT EXISTS {
     ?s rdf:type ?ontType .
     FILTER(?ontType IN (
@@ -26,7 +19,7 @@ WHERE {
       owl:Ontology,
       owl:Restriction,
       rdfs:Datatype,
-      owl:NamedIndividual
+      owl:NamedIndividual  # Optional
     ))
   }
   FILTER (
@@ -36,4 +29,11 @@ WHERE {
     !STRSTARTS(STR(?s), "http://www.w3.org/ns/sparql-service-description#") &&
     !STRSTARTS(STR(?principalType), "http://www.w3.org/ns/sparql-service-description#")
   )
+
+  FILTER NOT EXISTS {
+    ?s rdf:type ?broaderType .
+    ?principalType rdfs:subClassOf+ ?broaderType .
+    FILTER (?principalType != ?broaderType)
+  }
 }
+LIMIT 10000
